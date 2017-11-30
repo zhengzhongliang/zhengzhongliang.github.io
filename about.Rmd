@@ -2,32 +2,14 @@
 title: "About Me"
 ---
 
-I am an Assistant Professor in the [Department of Electrical and Computer Engineering](http://www.ece.arizona.edu/) at [The University of Arizona](http://www.arizona.edu/), where I perform research in data mining and applied machine learning. 
+I am a master student in the [Department of Electrical and Computer Engineering](http://www.ece.arizona.edu/) at [The University of Arizona](http://www.arizona.edu/). My reserach interest includes artificial neural network, natural language processing and spiking neural network. 
 
 ## Education 
-- __PhD__ Electrical Engineering, Drexel University, 2015
-- __MSc__ Electrical and Computer Engineering, Rowan University, 2011
-- __BSc__ Electronics Engineering Technology, The Pennsylvania College of Technology, 2008
+- __MSc__ Electrical and Computer Engineering, The University of Arizona, present
+- __BSc__ Electrical Engineering, Shandong University, 2015
 
 ## Employment  
-- __The University of Arizona (2015--2017)__ Assistant Professor
-- __Drexel University (2011--2015)__ Graduate Research Assistant 
-- __AT&T Research Labs (2013)__ Research Intern 
-- __Rowan University (2010--2015)__ Adjunct Professor
-- __Rowan University (2009--2011)__ Graduate Research Assistant
-- __QorTek, Inc. (2009)__ Electronics Systems Engineer 
+- __The University of Arizona (2015--present)__ Graduate Research Assistant 
+- __The University of Arizona (2011--2015)__ Graduate Teaching Assistant 
 
-## Advising   
 
-### PhD  
-- Heng Liu (ECE 2015--Present)
-- Samuel Hess (ECE 2017--Present)
-
-### MSc  
-- Zhengzhong Liang (ECE 2017--Present)
-- Zili Rong (ECE 2017--Present)
-- Jiashu Guo (ECE 2017--Present)
-- Jonathon Gill (ECE 2016--2017)
-
-### Undergraduate
-- Sean Miller (CS/ECE 2017--Present)

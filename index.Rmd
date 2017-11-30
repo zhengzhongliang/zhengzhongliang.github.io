@@ -1,15 +1,11 @@
 ---
-title: "Machine Learning and Data Science Research"
+title: "Artificial Intelligence and Computational Neuroscience"
 ---
 
-I am an Assistant Professor in the [Department of Electrical and Computer Engineering](http://www.ece.arizona.edu/) at [The University of Arizona](http://www.arizona.edu/), where I perform research in data mining and applied machine learning. 
+I am a master student [Department of Electrical and Computer Engineering](http://www.ece.arizona.edu/) at [The University of Arizona](http://www.arizona.edu/). My reserach interest includes artificial neural network, natural language processing and spiking neural network. 
 
 <center>
-  [Github](https://github.com/gditzler) | 
-  [Google Scholar](https://scholar.google.com/citations?user=diET1AsAAAAJ&hl=en) | 
-  [Research Gate](https://www.researchgate.net/profile/Gregory_Ditzler) | 
-  [Twitter](https://twitter.com/gregory_ditzler) | 
-  [UA Personal Site](http://www.ece.arizona.edu/gregory-ditzler)
+  [Github](https://github.com/zhengzhongliang)
 </center>
 
 
