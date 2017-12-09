@@ -3,11 +3,9 @@ title: "Summary of Contributions"
 ---
 
 ## Journals 
-[The Impact of Encoding-Decoding Schemes and Weight Normalization in Spiking Neural Networks](/home/zhengzhong/Dropbox/Zhengzhong_Greg_Ozan/SpikingNN_Draft/draft_Unified/SpikingNN_draft-gcd.pdf)<!-- .element height="50%" width="50%" -->
-In preparation, 2017.12
-
 
 
 ## Conferences 
+[Analysis of earth currents in a medium-voltage distribution network with three-core cables](http://ieeexplore.ieee.org/document/7387029/)
 
 

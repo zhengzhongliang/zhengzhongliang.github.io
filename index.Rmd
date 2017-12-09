@@ -2,7 +2,7 @@
 title: "Artificial Intelligence and Computational Neuroscience"
 ---
 
-I am a master student [Department of Electrical and Computer Engineering](http://www.ece.arizona.edu/) at [The University of Arizona](http://www.arizona.edu/). My reserach interest includes artificial neural network, natural language processing and spiking neural network. 
+I am a master student in the [Department of Electrical and Computer Engineering](http://www.ece.arizona.edu/) at [The University of Arizona](http://www.arizona.edu/). My reserach interest includes artificial neural network, natural language processing and spiking neural network. My CV is available [here](ProjectDocs/zhengzhongliang_CV.pdf).
 
 <center>
   [Github](https://github.com/zhengzhongliang)

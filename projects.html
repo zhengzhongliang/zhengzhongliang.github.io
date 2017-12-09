@@ -11,7 +11,7 @@
 
 
 
-<title>Research Projects</title>
+<title>Research Projects &amp; Course Projects</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -185,40 +185,42 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Research Projects</h1>
+<h1 class="title toc-ignore">Research Projects &amp; Course Projects</h1>
 
 </div>
 
 
-<div id="train-lstm-with-multiple-gpus-on-elgato" class="section level2">
-<h2>Train LSTM with Multiple GPUs on Elgato</h2>
-<p><a href="Projects/ECE677_ProjectReport_ZhengzhongLiang.pdf">Train LSTM with Multiple GPUs on Elgato</a><!-- .element height="50%" width="50%" --></p>
-</div>
 <div id="the-effect-of-poisoned-text-to-lstm" class="section level2">
 <h2>The Effect of Poisoned Text to LSTM</h2>
+<p>LSTM can used for text prediction. However, little work as been done about the influence of poisoned training text to LSTM. In this project we study the influence of poisoned training text to an LSTM network. Code may be uploaded after work is published (From Aug 2017 to Present).</p>
 </div>
 <div id="brain-tumor-classification-using-lstm" class="section level2">
 <h2>Brain Tumor Classification using LSTM</h2>
+<p>Use LSTM network to classify tumors based on the tumor’s growing speed. Code may be uploaded after work is published (From Jun 2017 to Aug 2017).</p>
 </div>
 <div id="spiking-neural-network-classifier-encoding-decoding-and-normalization" class="section level2">
 <h2>Spiking Neural Network Classifier: Encoding, Decoding and Normalization</h2>
+<p><a href="ProjectDocs/SpikingNN_draft.pdf">Draft in preparation - Dec. 2017</a><!-- .element height="50%" width="50%" --> Spike-Timing Dependent Plasticity (STDP) is a learning mechansim in human’s neural system which says the plasticity of synapse is dependent on the relative spiking time of the pre-synaptic neuron and post-synaptic neuron. In this project we studied the influence of STDP learning window to the performance of a spiking neural network classifier. Furthermore we studied the influence of encoding/decoding scheme and normalization rule on proposed spiking neural classifier. The project starts in Oct. 2016, and we are trying to finalize the draft. Code will be uploaded after work is published. (From Oct. 2016 to Preesent).</p>
 </div>
 <div id="simulation-of-place-cells-in-hippocampus" class="section level2">
 <h2>Simulation of Place Cells in Hippocampus</h2>
-<p>To be filled</p>
+<p>Rats use place cells to help navigate. Place cells have a property to emit spikes at certain places. In turn, rats can estimate its location by counting the number of spikes emitted by certain place cells. The sensitive area in which place cell can emit spikes is called place field. In this project I helped study the influence of place field size to the navigation accuracy. I used yale’s simulation library NEURON to generate spikes, and used MATLAB to do data processing (From Jan. 2017 to Mar. 2017).</p>
+</div>
+<div id="train-lstm-with-multiple-gpus-on-elgato" class="section level2">
+<h2>Train LSTM with Multiple GPUs on Elgato</h2>
+<p><a href="ProjectDocs/ECE677_ProjectReport_ZhengzhongLiang.pdf">ECE677 Course Project - Dec. 2017</a><!-- .element height="50%" width="50%" --> Deep Neural Network have been proved to be able to complete complex recognitive tasks, including large-scale image classification, machine translation, speech recognition and others. However, one major challenge faced by deep neural network reserachers is the enormous training time. One solution is to parallelize this training process. In this project I parallelized the traning process of an LSTM network. The network is trained on two GPUs on Elgato (a cluster of University of Arizona’s High Performance Computing Center). The model is implemented in TensorFlow. A multi-layer perceptron (MLP) is also tested in similar manner. I further compared the performance and time consumption of the two models. Results show that LSTM is particularly suitable for parallel computing in that there is less communication overhead. Code is available in my Github repository (From Oct. 2017 to Dec. 2017). <a href="https://github.com/zhengzhongliang/ECE677">ECE677 Code</a></p>
 </div>
 <div id="spiking-neural-classifier" class="section level2">
 <h2>Spiking Neural Classifier</h2>
-<p><a href="/home/zhengzhong/Dropbox/ECE523/523_Project/finalProject.pdf">A Spiking Neural Classifier</a><!-- .element height="50%" width="50%" --></p>
-<p>Course project for machine learning course, 2017.05</p>
+<p><a href="ProjectDocs/ECE523_ProjectReport.pdf">ECE523 Course Project - May 2017</a><!-- .element height="50%" width="50%" --> In this project we proposed a spiking neural classifier for two-class image classification problem. We encode the pixel of image by spikes and propagate those spikes through the spiking neural classifier. At the output layer we decode the neuron’s spike to classification result - the neuron with the most post-synaptic spikes gives the predicted class. We also proposed a normalization rule which restricts the sum of strengths of synapses departing from a neuron. This classifier becomees the prototype of the STDP research project (from Feb. 2017 to May 2017). <a href="https://github.com/zhengzhongliang/ECE523">ECE523 Code</a></p>
 </div>
 <div id="visualized-neural-simulator" class="section level2">
 <h2>Visualized Neural Simulator</h2>
-<p><a href="/home/zhengzhong/Dropbox/ECE505/A%20Visualized%20Neural%20Simulator%20through%20WebGME.pdf">Visualized Neural Simulator</a><!-- .element height="50%" width="50%" --> Course project for model-integrated computing course, 2016.12</p>
+<p><a href="ProjectDocs/ECE505_ProjectReport.pdf">ECE505 Course Project - Dec. 2016</a><!-- .element height="50%" width="50%" --> In this project I designed and implemented a visualized neural network simulator which allows user to build and simulate spiking neural network visually. Users can choose neurons through a WebGME GUI then connect them using synapses. When finished, user can choose to generate MATLAB code for the network. The plugin can automatically generates MATALB code for the network. Copy the code to MATLAB and run it, user can get the voltage graph of some certain neurons. Code generator is written in Javascript (From Nov. 2016 to Dec. 2016). <a href="https://github.com/zhengzhongliang/ECE505">ECE505 Code</a></p>
 </div>
 <div id="an-introduction-to-the-study-of-brain" class="section level2">
 <h2>An Introduction to the Study of Brain</h2>
-<p><a href="/home/zhengzhong/Dropbox/ECE521/dissertation.pdf">An Inroduction to the Study of Brain</a><!-- .element height="50%" width="50%" --> Course project for complexity course, 2016.12</p>
+<p><a href="ProjectDocs/ECE521_CourseDissertation.pdf">ECE521 Course Project - Dec. 2016</a><!-- .element height="50%" width="50%" --> The study of brain has inspired many inovations in artificial intelligence. This course project report reviews the study about brain in psychology, neuroscience and aritificial intelligence (From Sept. 2016 to Dec. 2016).</p>
 </div>
 
 
