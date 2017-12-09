@@ -2,6 +2,9 @@
 title: "Research Projects"
 ---
 
+## Train LSTM with Multiple GPUs on Elgato
+[Train LSTM with Multiple GPUs on Elgato](Projects/ECE677_ProjectReport_ZhengzhongLiang.pdf)<!-- .element height="50%" width="50%" -->
+
 ## The Effect of Poisoned Text to LSTM
 
 ## Brain Tumor Classification using LSTM
@@ -13,6 +16,7 @@ To be filled
 
 ## Spiking Neural Classifier
 [A Spiking Neural Classifier](/home/zhengzhong/Dropbox/ECE523/523_Project/finalProject.pdf)<!-- .element height="50%" width="50%" -->
+
 Course project for machine learning course, 2017.05
 
 ## Visualized Neural Simulator
