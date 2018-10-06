@@ -9,7 +9,7 @@ LSTM can be used for text prediction. However, little work as been done about th
 Use LSTM network to classify tumors based on the tumor's growing speed. Code may be uploaded after work is published (From Jun 2017 to Aug 2017).
 
 ## Spiking Neural Network Classifier: Encoding, Decoding and Normalization
-[Draft in preparation - Dec. 2017](https://www.sciencedirect.com/science/article/pii/S0893608018302508)
+[Paper published on Neural Networks](https://www.sciencedirect.com/science/article/pii/S0893608018302508)
 Spike-Timing Dependent Plasticity (STDP) is a learning mechansim in human's neural system which says the plasticity of synapse is dependent on the relative spiking timing of the pre-synaptic neuron and post-synaptic neuron. In this project we studied the influence of STDP learning window to the performance of a spiking neural network classifier. Furthermore we studied the influence of encoding/decoding scheme and normalization rule on proposed spiking neural classifier. 
 
 ## Simulation of Place Cells in Hippocampus
