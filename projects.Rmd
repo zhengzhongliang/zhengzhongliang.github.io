@@ -3,10 +3,10 @@ title: "Research Projects & Course Projects"
 ---
 
 ## The Effect of Poisoned Text to LSTM
-LSTM can be used for text prediction. However, little work as been done about the influence of poisoned training text to LSTM. In this project we study the influence of poisoned training text to an LSTM network. Code may be uploaded after work is published (From Aug 2017 to Present).
+LSTM can be used for text prediction. However, little work as been done about the influence of poisoned training text to LSTM. In this project we study the influence of poisoned training text to an LSTM network.
 
 ## Brain Tumor Classification using LSTM
-Use LSTM network to classify tumors based on the tumor's growing speed. Code may be uploaded after work is published (From Jun 2017 to Aug 2017).
+Use LSTM network to classify tumors based on the tumor's growing speed. 
 
 ## Spiking Neural Network Classifier: Encoding, Decoding and Normalization
 [Paper published on Neural Networks](https://www.sciencedirect.com/science/article/pii/S0893608018302508)
