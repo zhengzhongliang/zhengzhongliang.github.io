@@ -2,6 +2,17 @@
 title: "Research Projects"
 ---
 
+## Explainable Multi-hop Verbal Reasoning Through Internal Monologue
++ Proposed the Explainable Verbal Reasoner (EVR) by extending Allen Newell's General Problem Solver (GPS) with state-of-the-art (SOTA) neural components. 
++ The major characteristics of EVR are (1) the method iteratively generates subgoals to reduce the original complex problem into several easy ones and solve them individually; (2) all intermediate steps are expressed in natural language. 
++ We tested EVR on AI2's synthetic dataset "RuleTaker" that requires multi-hop reasoning. Results show that our method achieves state-of-the-art performance, while being able to generalize well when simpler/less training data are available. 
+
+## Can Generative Language Models Learn to Generate Valid Statements from Premises
++ Investigated whether a state-of-the-art (SOTA) pretrained generative language model (Google T5) is able to learn to generate valid statements given two premise statements (e.g., "steel is a metal" + "metal is a thermal conductor" -> "steel is a thermal conductor").
++ We used the QASC dataset because it is in natural language, and the "premises-conclusion" pairs are given.
++ We found that some simple statements can be generated well, while the model failed on the complex ones, such as those requiring monotinicity reasoning and rephrasing. 
++ The project is implemented with python and pytorch. 
+
 ## Combine Neural and Non-neural Methods for Representation-Based Information Retrieval
 + Compared the state-of-the-art (SOTA) neural information retrieval methods (such as BERT and USE-QA) with classic word-overlap based methods (such as tf-idf and BM25).
 + Conducted a probe task to show that query embedding of USE-QA encodes the information of the target document

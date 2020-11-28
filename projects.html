@@ -296,6 +296,23 @@ $(document).ready(function () {
 </div>
 
 
+<div id="explainable-multi-hop-verbal-reasoning-through-internal-monologue" class="section level2">
+<h2>Explainable Multi-hop Verbal Reasoning Through Internal Monologue</h2>
+<ul>
+<li>Proposed the Explainable Verbal Reasoner (EVR) by extending Allen Newell’s General Problem Solver (GPS) with state-of-the-art (SOTA) neural components.</li>
+<li>The major characteristics of EVR are (1) the method iteratively generates subgoals to reduce the original complex problem into several easy ones and solve them individually; (2) all intermediate steps are expressed in natural language.</li>
+<li>We tested EVR on AI2’s synthetic dataset “RuleTaker” that requires multi-hop reasoning. Results show that our method achieves state-of-the-art performance, while being able to generalize well when simpler/less training data are available.</li>
+</ul>
+</div>
+<div id="can-generative-language-models-learn-to-generate-valid-statements-from-premises" class="section level2">
+<h2>Can Generative Language Models Learn to Generate Valid Statements from Premises</h2>
+<ul>
+<li>Investigated whether a state-of-the-art (SOTA) pretrained generative language model (Google T5) is able to learn to generate valid statements given two premise statements (e.g., “steel is a metal” + “metal is a thermal conductor” -&gt; “steel is a thermal conductor”).</li>
+<li>We used the QASC dataset because it is in natural language, and the “premises-conclusion” pairs are given.</li>
+<li>We found that some simple statements can be generated well, while the model failed on the complex ones, such as those requiring monotinicity reasoning and rephrasing.</li>
+<li>The project is implemented with python and pytorch.</li>
+</ul>
+</div>
 <div id="combine-neural-and-non-neural-methods-for-representation-based-information-retrieval" class="section level2">
 <h2>Combine Neural and Non-neural Methods for Representation-Based Information Retrieval</h2>
 <ul>
