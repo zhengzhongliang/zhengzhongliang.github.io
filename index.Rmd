@@ -1,11 +1,12 @@
 ---
-title: "Zhengzhong Liang"
+title: "Personal Webpage"
 ---
 
 I am a PhD student in the [Computer Science Department](https://www.cs.arizona.edu/) at [The University of Arizona](http://www.arizona.edu/). My reserach interest is Natural Language Processing (NLP), particularly about multi-hop and commonsense reasoning. My CV is available [here](ProjectDocs/zhengzhongliang_CV.pdf).
 
 <center>
   [Github](https://github.com/zhengzhongliang)
+  [Google Scholar](https://scholar.google.com/citations?user=yM8_mJUAAAAJ&hl=en)
 </center>
 
 

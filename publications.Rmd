@@ -1,11 +1,31 @@
 ---
-title: "Summary of Contributions"
+title: "Publications"
 ---
 
 ## Journals 
-
++ [The impact of encoding–decoding schemes and weight normalization in spiking neural networks](https://www.sciencedirect.com/science/article/abs/pii/S0893608018302508), <br />
+Zhengzhong Liang, David Schwartz, Gregory Ditzler, O Ozan Koyluoglu, <br /> 
+Neural Networks (2018). <br />
 
 ## Conferences 
-[Analysis of earth currents in a medium-voltage distribution network with three-core cables](http://ieeexplore.ieee.org/document/7387029/)
++ [Do Transformers Dream of Inference, or Can Pretrained Generative Models Learn Implicit Inferential Rules?](https://www.aclweb.org/anthology/2020.insights-1.12/), <br />
+Zhengzhong Liang and Mihai Surdeanu, <br />
+Proceedings of the First Workshop on Insights from Negative Results in NLP (co-located with EMNLP 2020). <br />
+
++ [Understanding the Polarity of Events in the Biomedical Literature: Deep Learning vs. Linguistically-informed Methods](https://www.aclweb.org/anthology/W19-2603.pdf), <br />
+Enrique Noriega-Atala, Zhengzhong Liang, John Bachman, Clayton Morrison, Mihai Surdeanu, <br />
+Proceedings of the Workshop on Extracting Structured Knowledge from Scientific Publications (co-located with NAACL 2019). <br />
+
++ [The Impact of an Adversary in a Language Model](https://ieeexplore.ieee.org/abstract/document/8628894/), <br />
+Zhengzhong Liang and Gregory Ditzler, <br />
+2018 IEEE Symposium Series on Computational Intelligence (SSCI), <br />
+
++ [Nonlinear Brain Tumor Model Estimation with Long Short-Term Memory Neural Networks](http://users.rowan.edu/~bouaynaya/IJCNN-2018-Greg.pdf), <br />
+Jiashu Guo, Zhengzhong Liang, Gregory Ditzler, Nidhal C Bouaynaya, Elizabeth Scribner, Hassan M Fathallah-Shaykh, <br />
+2018 International Joint Conference on Neural Networks (IJCNN). <br />
+
+## Preprint
++ [Using the Hammer Only on Nails: A Hybrid Method for Evidence Retrieval for Question Answering](https://arxiv.org/abs/2009.10791), <br />
+Zhengzhong Liang, Yiyun Zhao and Mihai Surdeanu <br />
 
 

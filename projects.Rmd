@@ -1,37 +1,16 @@
 ---
-title: "Research Projects & Course Projects"
+title: "Research Projects"
 ---
 
-## The Effect of Poisoned Text to LSTM
-LSTM can be used for text prediction. However, little work as been done about the influence of poisoned training text to LSTM. In this project we study the influence of poisoned training text to an LSTM network.
+## Combine Neural and Non-neural Methods for Representation-Based Information Retrieval
++ Compared the state-of-the-art (SOTA) neural information retrieval methods (such as BERT and USE-QA) with classic word-overlap based methods (such as tf-idf and BM25).
++ Conducted a probe task to show that query embedding of USE-QA encodes the information of the target document
++ Proposed a hybrid retrieval method to combine both: when the top BM25 score of the query is high, use BM25; otherwise use USE-QA.
++ Results show that the hybrid method outperforms the individual baselines on three QA-based retrieval datasets. 
++ The project is implemented with python, pytorch, tensorflow, lucene and scala. 
 
-## Brain Tumor Classification using LSTM
-Use LSTM network to classify tumors based on the tumor's growing speed. 
-
-## Spiking Neural Network Classifier: Encoding, Decoding and Normalization
-[Paper published on Neural Networks](https://www.sciencedirect.com/science/article/pii/S0893608018302508)
-Spike-Timing Dependent Plasticity (STDP) is a learning mechansim in human's neural system which says the plasticity of synapse is dependent on the relative spiking timing of the pre-synaptic neuron and post-synaptic neuron. In this project we studied the influence of STDP learning window to the performance of a spiking neural network classifier. Furthermore we studied the influence of encoding/decoding scheme and normalization rule on proposed spiking neural classifier. 
-
-## Simulation of Place Cells in Hippocampus
-Rats use place cells to help navigate. Place cells have a property to emit spikes at certain places. In turn, rats can estimate its location by counting the number of spikes emitted by certain place cells. The sensitive area in which place cell can emit spikes is called place field. In this project I helped study the influence of place field size to the navigation accuracy. I used yale's simulation library NEURON to generate spikes, and used MATLAB to do data processing (From Jan. 2017 to Mar. 2017).
-
-## Train LSTM with Multiple GPUs on Elgato
-[ECE677 Course Project - Dec. 2017](ProjectDocs/ECE677_ProjectReport_ZhengzhongLiang.pdf)<!-- .element height="50%" width="50%" -->
-Deep Neural Network have been proved to be able to complete complex recognitive tasks, including large-scale image classification, machine translation, speech recognition and others. However, one major challenge faced by deep neural network reserachers is the enormous training time. One solution is to parallelize this training process. In this project I parallelized the traning process of an LSTM network. The network is trained on two GPUs on Elgato (a cluster of University of Arizona's High Performance Computing Center). The model is implemented in TensorFlow. A multi-layer perceptron (MLP) is also tested in similar manner. I further compared the performance and time consumption of the two models. Results show that LSTM is particularly suitable for parallel computing in that there is less communication overhead. Code is available in my Github repository (From Oct. 2017 to Dec. 2017).
-[ECE677 Code](https://github.com/zhengzhongliang/ECE677)
-
-## Spiking Neural Classifier
-[ECE523 Course Project - May 2017](ProjectDocs/ECE523_ProjectReport.pdf)<!-- .element height="50%" width="50%" -->
-In this project we proposed a spiking neural classifier for two-class image classification problem. We encode the pixel of image by spikes and propagate those spikes through the spiking neural classifier. At the output layer we decode the neuron's spike to classification result - the neuron with the most post-synaptic spikes gives the predicted class. We also proposed a normalization rule which restricts the sum of strengths of synapses departing from a neuron. This classifier becomees the prototype of the STDP research project (from Feb. 2017 to May 2017).
-[ECE523 Code](https://github.com/zhengzhongliang/ECE523)
-
-## Visualized Neural Simulator
-[ECE505 Course Project - Dec. 2016](ProjectDocs/ECE505_ProjectReport.pdf)<!-- .element height="50%" width="50%" -->
-In this project I designed and implemented a visualized neural network simulator which allows user to build and simulate spiking neural network visually. Users can choose neurons through a WebGME GUI then connect them using synapses. When finished, user can choose to generate MATLAB code for the network. The plugin can automatically generates MATALB code for the network. Copy the code to MATLAB and run it, user can get the voltage graph of some certain neurons. Code generator is written in Javascript (From Nov. 2016 to Dec. 2016).
-[ECE505 Code](https://github.com/zhengzhongliang/ECE505)
-
-
-## An Introduction to the Study of Brain
-[ECE521 Course Project - Dec. 2016](ProjectDocs/ECE521_CourseDissertation.pdf)<!-- .element height="50%" width="50%" -->
-The study of brain has inspired many inovations in artificial intelligence. This course project report reviews the study about brain in psychology, neuroscience and aritificial intelligence (From Sept. 2016 to Dec. 2016).
-
+## Hybrid Polarity Classifier for Biomedical Events
++ Compared the LSTM-based classifier with the linguistic-knowledge-informed classifier on polarity detection of biomedical events. 
++ Integrated the LSTM classifier to Reach (a information extraction software for biomedical publications, implemented in scala). 
++ Implemented a hybrid classifier to combine the LSTM one and the linguistic one. The routing classifier works by counting the negation words in the text: if there are many negation words, use the LSTM classifier; otherwise use the linguistic classifier. 
++ This project is implemented in python, dynet and scala.
