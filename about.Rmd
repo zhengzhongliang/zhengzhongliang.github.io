@@ -2,10 +2,11 @@
 title: "About Me"
 ---
 
-I am a master student in the [Department of Electrical and Computer Engineering](http://www.ece.arizona.edu/) at [The University of Arizona](http://www.arizona.edu/). My reserach interest includes artificial neural network, natural language processing and spiking neural network. 
+I am a PhD student in the [Computer Science Department](https://www.cs.arizona.edu/) at [The University of Arizona](http://www.arizona.edu/). My reserach interest is Natural Language Processing (NLP), particularly about multi-hop and commonsense reasoning. My CV is available [here](ProjectDocs/zhengzhongliang_CV.pdf).
 
-## Education 
-- __MSc__ Electrical and Computer Engineering, The University of Arizona, present
+## Education
+- __PhD__ Computer Science, The University of Arizona, Present
+- __MSc__ Electrical and Computer Engineering, The University of Arizona, 2018
 - __BSc__ Electrical Engineering, Shandong University, 2015
 
 ## Employment  
